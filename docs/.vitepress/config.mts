@@ -6,6 +6,9 @@ export default defineConfig({
   description: "前端與後端開發學習筆記",
   lang: 'zh-TW',
   
+  // GitHub Pages 部署設定 - 重要！
+  base: '/notes/',
+  
   // 確保中文路徑能被正確處理
   cleanUrls: true,
   
