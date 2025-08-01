@@ -51,7 +51,10 @@ export default defineConfig({
       "/未整理/": [
         {
           text: "未整理筆記",
-          items: [{ text: "AAA 筆記", link: "/未整理/aaa" }],
+          items: [
+            { text: "設計資料表注意事項", link: "/未整理/設計資料表注意事項" },
+            { text: "如何存取檔案", link: "/未整理/如何存取檔案" },
+          ],
         },
       ],
       "/前端/": [
