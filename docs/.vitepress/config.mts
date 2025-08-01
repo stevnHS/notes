@@ -42,7 +42,7 @@ export default defineConfig({
 
     nav: [
       // { text: '首頁', link: '/' },
-      { text: "未整理", link: "/未整理/aaa" },
+      { text: "未整理", link: "/未整理/筆記說明" },
       { text: "前端", link: "/前端/aaa" },
       { text: "後端", link: "/後端/aaa" },
     ],
@@ -50,7 +50,17 @@ export default defineConfig({
     sidebar: {
       "/未整理/": [
         {
-          text: "未整理筆記",
+          text: "介紹",
+          items: [
+            { text: "筆記說明", link: "/未整理/筆記說明" },
+          ],
+        },
+        {
+          text: "前端",
+          items: [],
+        },
+        {
+          text: "後端",
           items: [
             { text: "設計資料表注意事項", link: "/未整理/設計資料表注意事項" },
             { text: "如何存取檔案", link: "/未整理/如何存取檔案" },
