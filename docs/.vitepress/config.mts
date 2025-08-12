@@ -51,9 +51,7 @@ export default defineConfig({
       "/未整理/": [
         {
           text: "介紹",
-          items: [
-            { text: "筆記說明", link: "/未整理/筆記說明" },
-          ],
+          items: [{ text: "筆記說明", link: "/未整理/筆記說明" }],
         },
         {
           text: "前端",
@@ -62,7 +60,10 @@ export default defineConfig({
         {
           text: "後端",
           items: [
-            { text: "開發WebAPI的前置作業", link: "/未整理/開發WebAPI的前置作業" },
+            {
+              text: "開發WebAPI的前置作業",
+              link: "/未整理/開發WebAPI的前置作業",
+            },
             { text: "設計資料表注意事項", link: "/未整理/設計資料表注意事項" },
             { text: "如何存取檔案", link: "/未整理/如何存取檔案" },
           ],

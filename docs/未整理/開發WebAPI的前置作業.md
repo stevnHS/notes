@@ -3,11 +3,13 @@
 ## 一、專案架構與組態
 
 - **專案結構 (Project Structure)**：規劃解決方案的資料夾與分層，職責分離、易於維護。
+
   - Clean Architecture
   - Onion Architecture
   - N-Tier
 
 - **組態管理 (Configuration)**：集中且區分環境的設定檔管理，敏感資訊不硬編碼。
+
   - appsettings.json
   - 環境變數
   - Options Pattern
@@ -20,20 +22,24 @@
 ## 二、基礎設施配置
 
 - **日誌記錄 (Logging)**：結構化日誌系統，方便除錯與監控。
+
   - Serilog
   - NLog
   - Seq
   - Datadog
 
 - **全域錯誤處理 (Error Handling)**：統一例外攔截，回傳一致錯誤訊息。
+
   - Middleware
   - UseDeveloperExceptionPage
 
 - **相依性注入 (Dependency Injection)**：註冊共用服務與倉儲，低耦合高可測試性。
+
   - ASP.NET Core DI
   - Scrutor
 
 - **資料庫存取 (Database Access)**：設定 ORM 與資料庫連接，建立初始遷移。
+
   - EF Core
   - Dapper
   - Repository Pattern
@@ -45,6 +51,7 @@
 ## 三、API 安全性與通訊
 
 - **驗證與授權 (AuthN & AuthZ)**：配置驗證與授權框架，開發環境可用假驗證。
+
   - JWT
   - [Authorize]
   - Fake Handler
@@ -57,6 +64,7 @@
 ## 四、API 文件與版本管理
 
 - **API 文件 (API Documentation)**：自動產生 API 說明文件。
+
   - Swagger
   - OpenAPI
 
@@ -67,6 +75,7 @@
 ## 五、監控與測試
 
 - **健康檢查 (Health Checks)**：建立 /health 端點，供外部監控。
+
   - AddHealthChecks()
   - 檢查資料庫、外部服務
 
