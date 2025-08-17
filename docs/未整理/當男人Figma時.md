@@ -12,6 +12,35 @@
 
 🤝 跨部門溝通更順暢：PM、設計師、工程師都在同一個畫布上協作
 
+## 想學一點點設計知識
+
+### UI風格
+
+提供好的使用體驗,品牌識別度與影響力
+
+- 插圖
+    1. 扁平
+    2. 插畫
+    3. 幾何
+    4. 3D插圖
+    5. 線條
+    6. 漸層
+    7. 手繪
+- 文字
+    - 字型
+        1. 無襯線字(san serif):易於閱讀
+        2. 有襯線字(serif):傳統,正式,經典
+    - 字體大小
+        1. pt(像素)
+        2. px(點)
+    - 行高
+        通常為字體大小的1.5倍
+
+可參考:
+
+[Material Design](https://m3.material.io/styles/typography/overview)
+
+[Apple Design](https://developer.apple.com/design/human-interface-guidelines)
 ## 大綱
 
 ### 理解基礎操作
